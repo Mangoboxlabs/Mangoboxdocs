@@ -230,4 +230,89 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://github.com/Kevinluoo
 
 
+## Development Roadmap :nut_and_bolt:
+
+### Overview
+
+- **Total Estimated Duration:**  2 months
+- **Full-Time Equivalent (FTE):**   4FTE
+- **Total Costs:** 44000 USD
+
+### Milestone 1 — Ink!  contract Modules
+
+- **Estimated duration:** 1 month
+- **FTE:**  4
+- **Costs:** 20,000 USD
+
+| Number | Deliverable                   | Specification                                                |
+| -----: | ----------------------------- | ------------------------------------------------------------ |
+|    0a. | License                       | Apache 2.0                                                   |
+|    0b. | Documentation                 | We will provide a basic **tutorial** that explains how a user can deploy and test our ink contract. |
+|    0c. | Testing Guide                 | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+|    0d. | Docker                        | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
+|     1. | Contract:MBTokenStore         | Manages token minting and burning for all projects.          |
+|     2. | Contract: MBFundingCycleStore | Manages funding cycle configurations and scheduling.         |
+|     3. | Contract:MBProjects           | Manages and tracks ownership over projects, which are represented as ERC-721 tokens.The protocol uses this to enforce permissions needed to access several project-oriented transactions. |
+|     4. | Contract:MBSplitsStore        | Stores information about how arbitrary distributions should be split. The surface contracts currently use these to split up payout distributions and reserved token distributions. |
+|     5. | Contract:MBPrices             | Manages and normalizes price feeds of various currencies.    |
+
+
+
+### Milestone 2 — Ink!  contract Modules and  Frontend files
+
+- **Estimated Duration:** 1 month
+- **FTE:**  4
+- **Costs:** 24,000 USD
+
+
+| Number | Deliverable                | Specification                                                |
+| -----: | -------------------------- | ------------------------------------------------------------ |
+|    0a. | License                    | Apache 2.0                                                   |
+|    0b. | Documentation              | We will provide a basic **tutorial** that explains how a user can deploy and test our ink contract. |
+|    0c. | Testing Guide              | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+|    0d. | Docker                     | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
+|    0e. | Article                    | We will publish an **article** that explains how to use our product. |
+|     1. | Contract:MBOperatorStore   | Stores operator permissions for all addresses. Addresses can give permissions to any other address to take specific indexed actions on their behalf, while confining the permissions to an arbitrary number of domain namespaces. |
+|     2. | Contract: MBDirectory      | Keeps a reference of which terminal contracts each project is currently accepting funds through, and which controller contract is managing each project's tokens and funding cycles. |
+|     3. | Contract: MBController     | Stitches together funding cycles and project tokens, allowing for restricted control, accounting, and token management. |
+|     4. | Contract:MBPaymentTerminal | Manages all inflows of funds into the ecosystem.             |
+|     5. | Contract:MBSingleToken     | Manages accounting data on behalf of payment terminals that manage balances of only one token type. |
+|     6. | Frontend files             | We will provide front-end files and deployment tutorials.    |
+
+
+
+
+
+## Future Plans
+
+- **how you intend to use, enhance, promote and support your project in the short term, and**
+
+We first hope to develop the smart contract of the product. It will then proceed to deploy on a parachain for initial testing.
+
+
+
+- **the team's long-term plans and intentions in relation to it.**
+
+When our product starts testing, we hope to build our global community based on the Polkadot ecosystem, and start to incubate DAO organizations to start raising funds through our platform.
+
+
+
+## Additional Information :heavy_plus_sign:
+
+- **How did you hear about the Grants Program?** 
+
+Web3 Foundation Website.
+
+
+- **Work you have already done.**
+
+We have deeply researched the function and logic of juicebox, and we hope to use ink! Smart contracts refactor it.
+
+- **If there are any other teams who have already contributed (financially) to the project.**
+
+NO.
+
+- **Previous grants you may have applied for.**
+
+NO.
 
