@@ -26,8 +26,8 @@ Thanks again to all the Web3 Foundation staff for your hard work.
 
 * **Milestone Number:**  1
 
-| Number | Deliverable              | Link                                                         | Notes                                                        |
-| ------ | :----------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| N0| Deliverable              | Link                                                         | Notes                                                        |
+| --- | :-------------: | :-----------------------------------------------: | ----------------------------------------------- |
 | 0a.    | License                  |https://github.com/Mangoboxlabs/Mangoboxink/blob/main/LICENSE | Apache 2.0 |
 | 0b.    | Documentation            | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md | Documentation . |
 | 0c.    | Testing Guide            |https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md#testing| All test instructions are in the contract code document. |
@@ -46,8 +46,8 @@ Thanks again to all the Web3 Foundation staff for your hard work.
 
 * **Milestone Number:**  2
 
-| Number |      Deliverable       |                             Link                             | Notes                       |
-| ------ | :--------------------: | :----------------------------------------------------------: | --------------------------- |
+| No |      Deliverable       |                             Link                             | Notes                       |
+| ---| :--------------: | :-----------------------------------------------: | ----------------- |
 | 0a.    |        License         | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/LICENSE | Apache 2.0                  |
 | 0b-01.    |     Documentation01      | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md | Contract Documentation               |
 | 0b-02.    |     Documentation02      | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/Frontend/README.md |Frontend Documentation               |
