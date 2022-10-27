@@ -26,17 +26,17 @@ Thanks again to all the Web3 Foundation staff for your hard work.
 
 * **Milestone Number:**  1
 
-| N0| Deliverable              | Link                                                         | Notes                                                        |
-| --- | :-------------: | :-----------------------------------------------: | ----------------------------------------------- |
-| 0a.    | License                  |https://github.com/Mangoboxlabs/Mangoboxink/blob/main/LICENSE | Apache 2.0 |
-| 0b.    | Documentation            | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md | Documentation . |
-| 0c.    | Testing Guide            |https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md#testing| All test instructions are in the contract code document. |
-| 0d.    | Docker         | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/docker | Dockerfile. |
-| 1.     | Ink! Contract 1           | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBProjects |1.MBProjects:Manages and tracks ownership over projects, which are represented as ERC-721 tokens.The protocol uses this to enforce permissions needed to access several project-oriented transactions. |
-| 2.     | Ink! Contract 2           | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBFundingCycleStore |2.MBFundingCycleStore:Manages funding cycle configurations and scheduling. |
-| 3.     | Ink! Contract 3           | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBToken |3.MBToken:An ERC-20 token that can be used by a project in the `MBTokenStore`. |
-| 4.     | Ink! Contract 4           | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBTokenStore |4.MBTokenStore: Manages token minting and burning for all projects. |
-| 5.     | Ink! Contract 5           | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBERC20PaymentTerminal |5.MBERC20PaymentTerminal:Manages the inflows and outflows of an ERC-20 token. |
+| Number | Deliverable              | Link                                                         | Notes                                                        |
+| ------ | :----------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+| 0a.    | License                  |[License](https://github.com/Mangoboxlabs/Mangoboxink/blob/main/LICENSE) | Apache 2.0 |
+| 0b.    | Documentation            |[Documentation](https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md)| Documentation . |
+| 0c.    | Testing Guide            |[Testing Guide](https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md#testing)| All test instructions are in the contract code document. |
+| 0d.    | Docker         | [Docker](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/docker) | Dockerfile. |
+| 1.     | Ink! Contract 1           |[MBProjects](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBProjects) |1.MBProjects:Manages and tracks ownership over projects, which are represented as ERC-721 tokens.The protocol uses this to enforce permissions needed to access several project-oriented transactions. |
+| 2.     | Ink! Contract 2           |[MBFundingCycleStore](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBFundingCycleStore) |2.MBFundingCycleStore:Manages funding cycle configurations and scheduling. |
+| 3.     | Ink! Contract 3           |[MBToken](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBToken) |3.MBToken:An ERC-20 token that can be used by a project in the `MBTokenStore`. |
+| 4.     | Ink! Contract 4           | [MBTokenStore](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBTokenStore) |4.MBTokenStore: Manages token minting and burning for all projects. |
+| 5.     | Ink! Contract 5           |[MBERC20PaymentTerminal](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBERC20PaymentTerminal) |5.MBERC20PaymentTerminal:Manages the inflows and outflows of an ERC-20 token. |
 
 
 
@@ -46,20 +46,20 @@ Thanks again to all the Web3 Foundation staff for your hard work.
 
 * **Milestone Number:**  2
 
-| No |      Deliverable       |                             Link                             | Notes                       |
-| ---| :--------------: | :-----------------------------------------------: | ----------------- |
-| 0a.    |        License         | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/LICENSE | Apache 2.0                  |
-| 0b-01.    |     Documentation01      | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md | Contract Documentation               |
-| 0b-02.    |     Documentation02      | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/Frontend/README.md |Frontend Documentation               |
-| 0c.    |     Testing Guide      | https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md#testing | All test instructions are in the contract code document. |
-| 0d.    |         Docker         | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/docker | Dockerfile.                 |
-| 0e.    |        Article         | https://medium.com/@mangoboxlabs/introduction-to-mongobox-5fab08bd1b57 | Article                     |
-| 1.     |     Front-end File     | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/Frontend | Front-end file.             |
-| 2.     |           UI           |  https://github.com/Mangoboxlabs/Mangoboxink/tree/main/UIs   | MangoBox design UI picture. |
+| Number |      Deliverable       |                             Link                             | Notes                       |
+| ------ | :--------------------: | :----------------------------------------------------------: | --------------------------- |
+| 0a.    |        License         |[License](https://github.com/Mangoboxlabs/Mangoboxink/blob/main/LICENSE) | Apache 2.0                  |
+| 0b-01.    |     Documentation01      |[Documentation01](https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md) | Contract Documentation               |
+| 0b-02.    |     Documentation02      |[Documentation02](https://github.com/Mangoboxlabs/Mangoboxink/blob/main/Frontend/README.md) |Frontend Documentation               |
+| 0c.    |     Testing Guide      |[ Testing Guide ](https://github.com/Mangoboxlabs/Mangoboxink/blob/main/contract/README.md#testing) | All test instructions are in the contract code document. |
+| 0d.    |         Docker         | [Docker](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/docker) | Dockerfile.                 |
+| 0e.    |        Article         | [Article](https://medium.com/@mangoboxlabs/introduction-to-mongobox-5fab08bd1b57) | Article                     |
+| 1.     |     Front-end File     | [Front-end File](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/Frontend) | Front-end file.             |
+| 2.     |           UI           |  [UI](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/UIs)   | MangoBox design UI picture. |
 | 3.     | Functional Testnet URL |                  https://app.mangobox.xyz/                   | Functional Testnet URL      |
-| 4.     |     Ink! Contract 6     | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBSplitsStore | 6.MBSplitsStore:Stores information about how arbitrary distributions should be split. The surface contracts currently use these to split up payout distributions and reserved token distributions. |
-| 5.     |     Ink! Contract 7     | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBOperatorStore | 7.MBOperatorStore:Stores operator permissions for all addresses. Addresses can give permissions to any other address to take specific indexed actions on their behalf, while confining the permissions to an arbitrary number of domain namespaces. |
-| 6.     |     Ink! Contract 8    | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBDirectory | 8.MBDirectory:Keeps a reference of which terminal contracts each project is currently accepting funds through, and which controller contract is managing each project's tokens and funding cycles. |
-| 7.     |     Ink! Contract 9     | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBController | 9.MBController:Stitches together funding cycles and project tokens, allowing for restricted control, accounting, and token management. |
-| 8.     |     Ink! Contract 10     | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBSingleTokenPaymentTerminalStore | 10.MBSingleTokenPaymentTerminalStore: Manages accounting data on behalf of payment terminals that manage balances of only one token type. |
-| 9.     |     Ink! Contract 11    | https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBPrices | 11.MBPrices:Manages and normalizes price feeds of various currencies. |
+| 4.     |     Ink! Contract 6     | [MBSplitsStore](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBSplitsStore) | 6.MBSplitsStore:Stores information about how arbitrary distributions should be split. The surface contracts currently use these to split up payout distributions and reserved token distributions. |
+| 5.     |     Ink! Contract 7     | [MBOperatorStore](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBOperatorStore) | 7.MBOperatorStore:Stores operator permissions for all addresses. Addresses can give permissions to any other address to take specific indexed actions on their behalf, while confining the permissions to an arbitrary number of domain namespaces. |
+| 6.     |     Ink! Contract 8    | [MBDirectory](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBDirectory) | 8.MBDirectory:Keeps a reference of which terminal contracts each project is currently accepting funds through, and which controller contract is managing each project's tokens and funding cycles. |
+| 7.     |     Ink! Contract 9     |[MBController](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBController) | 9.MBController:Stitches together funding cycles and project tokens, allowing for restricted control, accounting, and token management. |
+| 8.     |     Ink! Contract 10     | [MBSingleTokenPaymentTerminalStore](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBSingleTokenPaymentTerminalStore) | 10.MBSingleTokenPaymentTerminalStore: Manages accounting data on behalf of payment terminals that manage balances of only one token type. |
+| 9.     |     Ink! Contract 11    | [MBPrices](https://github.com/Mangoboxlabs/Mangoboxink/tree/main/contract/MBPrices) | 11.MBPrices:Manages and normalizes price feeds of various currencies. |
